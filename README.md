@@ -119,13 +119,16 @@
 
 <div align="center">
 
-<!-- ✅ FULLY AUTO-UPDATING — all earned achievements appear automatically -->
-<img src="https://github-profile-achievements.vercel.app/api/?username=comradevijay&theme=tokyonight" alt="GitHub Achievements" />
+<!-- GitHub Achievements — auto-awarded by GitHub, links to your achievements tab -->
+[![Pair Extraordinaire](https://img.shields.io/badge/🫛_Pair_Extraordinaire-Achieved-6e40c9?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
+[![Quickdraw](https://img.shields.io/badge/🤠_Quickdraw-Achieved-e3b341?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
+[![Pull Shark](https://img.shields.io/badge/🦈_Pull_Shark-Achieved-1f6feb?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
+[![YOLO](https://img.shields.io/badge/🎉_YOLO-Achieved-f78166?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
 
-<br/>
+<br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=nord&no-frame=false&no-bg=true&margin-w=6&column=3&title=Commits,Repositories,PullRequest" alt="Trophies A" />
-<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=nord&no-frame=false&no-bg=true&margin-w=6&column=3&title=Stars,Followers,Experience" alt="Trophies B" />
+<!-- Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&margin-w=10&column=6" alt="GitHub Trophies" />
 
 </div>
 
@@ -138,8 +141,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/comradevijay/comradevijay/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/comradevijay/comradevijay/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/comradevijay/comradevijay/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/comradevijay/comradevijay/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
+
+> ⚙️ **Setup needed:** Go to **Actions tab → Generate Snake Graph → Run workflow** to activate this. Takes ~1 min.
 
 </div>
 
