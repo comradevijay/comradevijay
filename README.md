@@ -144,7 +144,7 @@
   <img alt="Snake animation" src="https://raw.githubusercontent.com/comradevijay/comradevijay/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-> ⚙️ **Setup needed:** Go to **Actions tab → Generate Snake Graph → Run workflow** to activate this. Takes ~1 min.
+> 
 
 </div>
 
