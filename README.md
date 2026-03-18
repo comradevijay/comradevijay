@@ -1,3 +1,4 @@
+<!--
 # Hi there, I'm Vijay Kumar 👋
 
 Professional Software Developer specializing in building scalable web applications and solving complex problems with Java and Full-Stack technologies.
@@ -41,3 +42,137 @@ Professional Software Developer specializing in building scalable web applicatio
 
 ### ⚡ Fun Fact
 I enjoy analyzing stock market trends and building automated tools like my **ATS-Friendly Resume Builder**.
+
+-->
+
+<div align="center">
+
+<!-- Dynamic typing SVG -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Vijay+Kumar;Full-Stack+Java+Developer;Spring+Boot+%7C+React+%7C+MongoDB;Open+to+Work+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+### 👨‍💻 About Me
+
+- 🎓 B.Tech in **Computer Science & Electrical Engineering** — KSRM College of Engineering
+- 💼 Former Intern @ **Rooman Technologies** · NSDC–NASSCOM Skill Competency Certificate (IBM × Skill India)
+- 🔭 Currently building: **WorkoutBuddy** (MERN) · **Night Planner** (React + Vite)
+- 🌱 Actively sharpening: **DSA in Java & Python** · Competitive Programming on HackerRank
+- 📍 Based in **Bengaluru, Karnataka, India**
+- 🤝 Open to **Entry-Level Software Developer** roles
+- 🌐 Portfolio: [vijay-kumar-portfolio.netlify.app](https://vijay-kumar-portfolio.netlify.app)
+
+---
+
+### 🛠️ Tech Stack
+
+**Backend**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Database**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Tools & DevOps**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+### 🚀 Featured Projects
+
+| Project | Description | Stack | Live |
+|---|---|---|---|
+| 🏋️ **WorkoutBuddy** | Fitness tracker with JWT auth, workout logging & progress charts | MERN Stack | [Live](https://vijay-kumar-portfolio.netlify.app) |
+| 🌙 **Night Planner** | Time-blocked productivity app with meal tracking & dark/light theme | React + Vite | [Live](https://vijay-kumar-portfolio.netlify.app) |
+| 📚 **Course Registration System** | Full-stack academic registration system | Java · Spring Boot · Hibernate · MySQL | [Repo](https://github.com/comradevijay) |
+| 📄 **ATS Resume Builder** | Generates ATS-friendly resumes with live preview | Spring Boot · HTML/CSS | [Repo](https://github.com/comradevijay/resume-builder) |
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+<!-- Auto-updates daily via GitHub's stats API -->
+<img src="https://github-readme-stats.vercel.app/api?username=comradevijay&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=comradevijay&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" alt="Top Languages" />
+
+</div>
+
+<div align="center">
+
+<!-- Auto-updates daily — streak counter -->
+<img src="https://streak-stats.demolab.com?user=comradevijay&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+---
+
+### 🏆 GitHub Trophies
+
+<div align="center">
+
+<!-- Auto-updates when you earn new trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+
+</div>
+
+---
+
+### 📈 Contribution Graph
+
+<div align="center">
+
+<!-- Auto-updates daily -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=comradevijay&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+
+</div>
+
+---
+
+### 🤝 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vijay-kumar-portfolio.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vijay-kumar-kondakindha)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/comradevijay)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/comradevijay)
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- Auto-updates visitor count -->
+![Visitor Count](https://komarev.com/ghpvc/?username=comradevijay&color=2F81F7&style=for-the-badge&label=PROFILE+VIEWS)
+
+*"First, solve the problem. Then, write the code." — John Johnson*
+
+</div>
