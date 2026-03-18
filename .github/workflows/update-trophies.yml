@@ -1,0 +1,73 @@
+name: Update Trophies
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # runs daily at 6am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Check trophies and update README
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request
+          import json
+          import re
+
+          # Fetch trophy data from github-profile-trophy API
+          url = "https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&margin-w=10&column=6&type=json"
+          
+          try:
+              req = urllib.request.Request(
+                  "https://github-profile-trophy.vercel.app/?username=comradevijay&type=json",
+                  headers={"User-Agent": "Mozilla/5.0"}
+              )
+              with urllib.request.urlopen(req, timeout=10) as response:
+                  data = json.loads(response.read().decode())
+                  has_trophies = isinstance(data, list) and len(data) > 0
+          except Exception as e:
+              print(f"Could not fetch trophy data: {e}")
+              has_trophies = False
+
+          print(f"Has trophies: {has_trophies}")
+
+          # Read README
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          # Build trophy img tag or empty string
+          if has_trophies:
+              trophy_img = '<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&margin-w=10&column=6" alt="GitHub Trophies" />'
+          else:
+              trophy_img = ""
+
+          # Replace between markers
+          new_content = re.sub(
+              r'<!-- TROPHY_START -->.*?<!-- TROPHY_END -->',
+              f'<!-- TROPHY_START -->\n{trophy_img}\n<!-- TROPHY_END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+
+          print("README updated successfully!")
+          PYEOF
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update trophies section [skip ci]"
+          git push
