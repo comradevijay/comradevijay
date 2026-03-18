@@ -43,7 +43,9 @@ Professional Software Developer specializing in building scalable web applicatio
 ### ⚡ Fun Fact
 I enjoy analyzing stock market trends and building automated tools like my **ATS-Friendly Resume Builder**.
 
---><div align="center">
+-->
+
+<div align="center">
 
 <!-- Dynamic typing SVG -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Vijay+Kumar;Java+Full+Stack+Developer;MERN+Stack+Developer;Spring+Boot+%7C+React+%7C+Node.js+%7C+MongoDB;Open+to+Work+%F0%9F%9A%80)](https://git.io/typing-svg)
@@ -165,18 +167,19 @@ I enjoy analyzing stock market trends and building automated tools like my **ATS
 <div align="center">
 
 <!-- GitHub Achievements (auto-awarded by GitHub) -->
-[![Pull Shark](https://img.shields.io/badge/Achievement-Pull%20Shark-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/comradevijay?tab=achievements)
-[![YOLO](https://img.shields.io/badge/Achievement-YOLO-orange?style=for-the-badge&logo=github&logoColor=white)](https://github.com/comradevijay?tab=achievements)
+[![Pull Shark](https://img.shields.io/badge/🦈%20Pull%20Shark-Achieved-1f6feb?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
+[![YOLO](https://img.shields.io/badge/🤠%20YOLO-Achieved-f78166?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
+
+<br/><br/>
+
+<!-- Primary trophy source (most stable) -->
+<img src="https://github-readme-stats.vercel.app/api?username=comradevijay&show_icons=true&theme=tokyonight&hide_border=true&hide=stars,prs,issues,contribs&show=reviews,discussions_started,prs_merged,prs_merged_percentage&rank_icon=github&include_all_commits=true" alt="Detailed Stats" />
 
 <br/>
 
-<!-- Trophy row 1 — Commits, Repos, Stars, Followers -->
-<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=4&title=Commits,Repositories,Stars,Followers" alt="Trophies Row 1" />
-
-<br/>
-
-<!-- Trophy row 2 — PRs, Issues, Reviews, Experience -->
-<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=4&title=PullRequest,Issues,Reviews,Experience" alt="Trophies Row 2" />
+<!-- Fallback trophy display via ryo-ma (alternative instance) -->
+<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=nord&no-frame=false&no-bg=true&margin-w=6&column=3&title=Commits,Repositories,PullRequest" alt="Trophies A" />
+<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=nord&no-frame=false&no-bg=true&margin-w=6&column=3&title=Stars,Followers,Experience" alt="Trophies B" />
 
 </div>
 
