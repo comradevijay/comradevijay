@@ -116,22 +116,21 @@
 ---
 
 ### 🏅 Achievements & Trophies
-
+ 
 <div align="center">
-
-<!-- GitHub Achievements — auto-awarded by GitHub, links to your achievements tab -->
+ 
 [![Pair Extraordinaire](https://img.shields.io/badge/🫛_Pair_Extraordinaire-Achieved-6e40c9?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
 [![Quickdraw](https://img.shields.io/badge/🤠_Quickdraw-Achieved-e3b341?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
 [![Pull Shark](https://img.shields.io/badge/🦈_Pull_Shark-Achieved-1f6feb?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
 [![YOLO](https://img.shields.io/badge/🎉_YOLO-Achieved-f78166?style=for-the-badge)](https://github.com/comradevijay?tab=achievements)
-
-<br/><br/>
-
-<!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&margin-w=10&column=6" alt="GitHub Trophies" />
-
+ 
+<br/>
+ 
+<!-- TROPHY_START -->
+<!-- TROPHY_END -->
+ 
 </div>
-
+ 
 ---
 
 ### 🐍 Contribution Snake
