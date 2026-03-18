@@ -12,7 +12,7 @@
 - 🎓 B.Tech in **Computer Science & Electrical Engineering** — KSRM College of Engineering
 - 💼 Former Intern @ **Rooman Technologies** · NSDC–NASSCOM Skill Competency Certificate (IBM × Skill India)
 - 🔭 Currently building: **WorkoutBuddy** (MERN) · **Night Planner** (React + Vite)
-- 🌱 Actively sharpening: **DSA in Java & Python** · Competitive Programming on HackerRank
+- 🌱 Actively sharpening: **DSA in Java & Python** · Competitive Programming on LeetCode & HackerRank
 - 📍 Based in **Bengaluru, Karnataka, India**
 - 🤝 Open to **Entry-Level Software Developer** roles — Java Full Stack · MERN Stack
 - 🌐 Portfolio: [vijay-kumar-portfolio.netlify.app](https://vijay-kumar-portfolio.netlify.app)
