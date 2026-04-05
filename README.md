@@ -101,8 +101,9 @@
 <div align="center">
 
 <!-- Auto-updates daily via GitHub's stats API -->
-<img src="https://github-readme-stats.vercel.app/api?username=comradevijay&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=comradevijay&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=comradevijay&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" height="180" alt="GitHub Stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=comradevijay&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" height="180" alt="Top Languages" />
 
 </div>
 
