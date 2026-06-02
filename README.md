@@ -89,8 +89,8 @@
 
 | Project | Stack | Type | Link |
 |---|---|---|---|
-| 🏋️ **WorkoutBuddy** | MongoDB · Express · React · Node.js · JWT Auth | MERN Stack | [Live](https://vijay-kumar-portfolio.netlify.app) |
-| 🌙 **Night Planner** | React · Vite · LocalStorage · Dark/Light Theme | React + Vite | [Live](https://vijay-kumar-portfolio.netlify.app) |
+| 🏋️ **WorkoutBuddy** | MongoDB · Express · React · Node.js · JWT Auth | MERN Stack | [Live](https://workoutbuddymernfs.netlify.app/) |
+| 🌙 **Night Planner** | React · Vite · LocalStorage · Dark/Light Theme | React + Vite | [Live](https://night-planner.vercel.app/) |
 | 📚 **Course Registration System** | Java · Spring Boot · Hibernate · Spring MVC · MySQL | Java Full Stack | [Repo](https://github.com/comradevijay) |
 | 📄 **ATS Resume Builder** | Java · Spring Boot · REST API · HTML/CSS | Java Full Stack | [Repo](https://github.com/comradevijay/resume-builder) |
 
