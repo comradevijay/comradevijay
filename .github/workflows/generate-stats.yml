@@ -17,6 +17,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # ── Generate Profile Summary Cards (private + public) ────────────────
       - name: Generate Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
@@ -25,3 +26,36 @@ jobs:
           UTC_OFFSET: 5.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Download Trophy SVG directly and save to repo ────────────────────
+      - name: Download Trophy SVG
+        run: |
+          mkdir -p trophies
+          # Try mirrors one by one until one works
+          MIRRORS=(
+            "https://github-profile-trophy-liard-delta.vercel.app"
+            "https://github-profile-trophy-fork-two.vercel.app"
+            "https://github-profile-trophy-winning.vercel.app"
+            "https://github-profile-trophy-kannan.vercel.app"
+            "https://github-profile-trophy.vercel.app"
+          )
+          for MIRROR in "${MIRRORS[@]}"; do
+            echo "Trying $MIRROR ..."
+            STATUS=$(curl -s -o trophies/trophy.svg -w "%{http_code}" \
+              "$MIRROR/?username=comradevijay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4")
+            if [ "$STATUS" = "200" ]; then
+              echo "Success with $MIRROR"
+              break
+            else
+              echo "Failed ($STATUS), trying next..."
+            fi
+          done
+          # Verify it's an SVG not an error page
+          head -c 100 trophies/trophy.svg
+
+      # ── Commit everything back ───────────────────────────────────────────
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update GitHub stats SVGs [skip ci]"
+          file_pattern: "profile-summary-card-output/**/*.svg trophies/trophy.svg"
