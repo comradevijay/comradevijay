@@ -135,8 +135,8 @@
 
 <br/>
 
-<!-- GitHub Trophies — counts private contributions -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<!-- GitHub Trophies — 2 rows, 4 columns, tokyonight theme -->
+<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
 
 </div>
 
