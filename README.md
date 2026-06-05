@@ -135,8 +135,8 @@
 
 <br/>
 
-<!-- GitHub Trophies — 2 rows, 4 columns, tokyonight theme -->
-<img src="https://github-profile-trophy.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+<!-- GitHub Trophies — using mirror instances since main URL is rate-limited -->
+<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=comradevijay&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
 
 </div>
 
