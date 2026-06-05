@@ -18,45 +18,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # ── Step 2: Generate GitHub Stats SVG (private + public) ────────────
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          username: comradevijay
-          count_private: true
-          include_all_commits: true
-          show_icons: true
-          theme: tokyonight
-          hide_border: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # ── Step 3: Generate Streak Stats SVG using official action ─────────
-      #    This runs inside YOUR repo so it has access to private commits
-      - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          user: comradevijay
-          theme: tokyonight
-          hide_border: true
-          date_format: "Y-m-d"
-          mode: weekly          # counts weekly instead of daily — fairer metric
-          exclude_days: ""      # count all days including weekends
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # ── Step 4: Generate Profile Summary Cards SVG ──────────────────────
-      - name: Generate Profile Summary
+      # ── Step 2: Generate Profile Summary Cards (the ONLY real action) ───
+      #    Uses YOUR GITHUB_TOKEN — reads private + public contributions
+      - name: Generate Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
           USERNAME: comradevijay
           BRANCH_NAME: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # ── Step 5: Commit all generated SVGs back to repo ──────────────────
-      - name: Commit generated files
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: auto-update GitHub stats SVGs [skip ci]"
-          file_pattern: "profile-summary-card-output/**/*.svg output/**/*.svg"
